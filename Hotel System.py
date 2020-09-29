@@ -1,7 +1,7 @@
 import pyodbc
 
 #connection = pyodbc.connect('driver={SQL Server}; Server=cypress.csil.sfu.ca;Trusted_Connection=yes;')
-connection = pyodbc.connect('driver={SQL Server};Server=cypress.csil.sfu.ca;uid=s_ebai;pwd=feLMmEnNfGJF6MN2')
+connection = pyodbc.connect('driver={SQL Server};Server=cypress.csil.sfu.ca;uid=s_ebai;pwd=')
 
 cursor = connection.cursor()
 
